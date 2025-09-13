@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'Nikhil-jenkins' }
     stages {
         stage('Checkout') {
             steps {
