@@ -8,3 +8,4 @@ routes.get('/', tripDetails.getTripDetailsController)
 routes.get('/:id', tripDetails.getTripDetailsByIdController)
 
 module.exports = routes
+
